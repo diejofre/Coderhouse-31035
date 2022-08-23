@@ -17,7 +17,7 @@ switched to db sistema
 > db
 sistema
 
-> db.usuarios.insert({nombre: 'Juan', edad: 23})
+> db.usuarios.insertOne({nombre: 'Juan', edad: 23})
 WriteResult({ "nInserted" : 1 })
 
 > db.usuarios.find()
@@ -26,13 +26,13 @@ WriteResult({ "nInserted" : 1 })
 > show collections   
 usuarios             
 
-> db.usuarios.insert({nombre: 'Cecilia', edad: 27})
+> db.usuarios.insertOne({nombre: 'Cecilia', edad: 27})
 WriteResult({ "nInserted" : 1 })
 
-> db.usuarios.insert({nombre: 'Pedro', edad: 29})
+> db.usuarios.insertOne({nombre: 'Pedro', edad: 29})
 WriteResult({ "nInserted" : 1 })
 
-> db.usuarios.insert({nombre: 'Ana', edad: 24})
+> db.usuarios.insertOne({nombre: 'Ana', edad: 24})
 WriteResult({ "nInserted" : 1 })
 
 > db.usuarios.find()
@@ -41,16 +41,16 @@ WriteResult({ "nInserted" : 1 })
 { "_id" : ObjectId("603d6c658417a398675ff7da"), "nombre" : "Pedro", "edad" : 29 }
 { "_id" : ObjectId("603d6c658417a398675ff7db"), "nombre" : "Ana", "edad" : 24 }
 
-> db.productos.insert({nombre: 'prod1', precio: 12.34, stock: 25})
+> db.productos.insertOne({nombre: 'prod1', precio: 12.34, stock: 25})
 WriteResult({ "nInserted" : 1 })
 
-> db.productos.insert({nombre: 'prod2', precio: 34.56, stock: 27})
+> db.productos.insertOne({nombre: 'prod2', precio: 34.56, stock: 27})
 WriteResult({ "nInserted" : 1 })
 
-> db.productos.insert({nombre: 'prod3', precio: 89.12, stock: 43})
+> db.productos.insertOne({nombre: 'prod3', precio: 89.12, stock: 43})
 WriteResult({ "nInserted" : 1 })
 
-> db.productos.insert({nombre: 'prod4', precio: 43.65, stock: 76})
+> db.productos.insertOne({nombre: 'prod4', precio: 43.65, stock: 76})
 WriteResult({ "nInserted" : 1 })
 
 > show collections
