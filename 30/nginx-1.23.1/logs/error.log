@@ -1,0 +1,8 @@
+2022/10/10 21:15:49 [notice] 21468#18808: signal process started
+2022/10/10 21:56:55 [notice] 12724#15768: signal process started
+2022/10/10 21:57:05 [error] 14904#19772: *7 CreateFile() "D:\Coderhouse\Coderhouse-31035\30\nginx-1.23.1/html/public" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /public HTTP/1.1", host: "localhost"
+2022/10/10 21:59:47 [notice] 6848#13968: signal process started
+2022/10/10 22:00:17 [notice] 18176#8764: signal process started
+2022/10/10 22:00:20 [error] 18660#10744: *13 CreateFile() "./NodeServer/public/js/index.js" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /js/index.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/10 22:00:25 [error] 18660#10744: *12 CreateFile() "./NodeServer/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/10 22:06:45 [notice] 18936#20288: signal process started
